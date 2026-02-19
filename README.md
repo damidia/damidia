@@ -1,7 +1,3 @@
-🔗 **Links**
-- 📄 [Resume](https://drive.google.com/file/d/1_S3RuO_Tk08M_B0qqW6E4JeBN-ylVGec/view)
-- 💼 [LinkedIn](https://www.linkedin.com/in/akhil-r-damidi/)
-
 # Hi, I’m Akhil Damidi 👋
 
 I’m an undergraduate at the **University of Washington** studying **Informatics (Data Science focus)**.
