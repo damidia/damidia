@@ -45,8 +45,6 @@ Delivered real-time dashboards projecting **$1.2M–$2.8M in annual savings** th
 
 **Tech:** Python • Feature Engineering • Predictive Modeling • Data Visualization  
 
-**More:** *(Add writeup link if available)*
-
 ---
 
 ## 💳 2) Credit Card Fraud Detection System
@@ -85,24 +83,116 @@ https://github.com/damidia/aquaaware_prototype
 
 ---
 
-## 🗺 4) Map-Based Field Sales CRM (Capstone — In Development)
+## 🗺 4) RoMap — Map-Based Field Sales CRM (Capstone)
 
-Building a mobile-first, map-centric CRM for field sales teams.
+**Live MVP:** https://romap-field-pro.base44.app/
 
-The system treats geography as the source of truth, enabling reps to:
-- Visualize territories  
-- Track follow-ups  
-- Manage leads by location  
-- Tie workflows directly to mapped data  
+Building a **mobile-first, map-centric CRM** designed specifically for **B2B field sales teams**.
 
-**Focus Areas**
-- Map-first UX  
-- Multi-user architecture  
-- Backend data modeling  
-- Rapid product iteration  
+RoMap treats geography as the source of truth, enabling sales reps to:
+- Visualize and manage territories  
+- Log visits directly on a map  
+- Track follow-ups and tasks tied to real-world locations  
+- Coordinate activity across a team within a shared account  
 
-**Status:** In development  
-**Link:** Coming soon  
+---
+
+### 🚩 Problem
+
+Traditional CRMs (HubSpot, Salesforce) are:
+- Expensive and complex for small teams  
+- Built for list-based workflows, not location-based work  
+
+Field sales teams instead:
+- Operate geographically  
+- Move between businesses physically  
+- Need fast, mobile-first tools  
+
+This creates a gap for a **simple, map-first CRM built for in-person sales workflows.**
+
+---
+
+### 🎯 Project Goals
+
+- Design a backend system supporting:
+  - Multi-user accounts (organizations)  
+  - Role-based access (salesperson vs manager)  
+  - Shared and isolated data  
+
+- Build a map-based interface to:
+  - Create businesses via pins  
+  - Manage territories visually  
+  - Attach contacts, tasks, and activities  
+
+- Deliver a working MVP demonstrating:
+  - Authentication  
+  - Data persistence  
+  - Role-based permissions  
+  - End-to-end functionality  
+
+---
+
+### ⚙️ My Contributions
+
+- Designed backend data models for:
+  - Accounts, users, businesses, tasks, contacts, and activities  
+
+- Built API structure and data flow to support:
+  - Map-based business creation  
+  - Role-based filtering (salesperson vs manager views)  
+  - CRUD operations across CRM entities  
+
+- Contributed to system architecture decisions:
+  - Multi-tenant data isolation  
+  - Scalable schema design  
+  - API structure  
+
+- Integrated frontend with backend systems:
+  - Ensured map interactions trigger correct backend updates  
+  - Verified persistence and data consistency  
+
+---
+
+### 🧠 Key Learnings
+
+- Designing multi-tenant systems with proper data isolation  
+- Implementing role-based access control at the backend  
+- Translating real-world workflows into scalable data models  
+- Balancing MVP scope with feature prioritization  
+- Building systems where backend correctness drives UX  
+
+---
+
+### 🔄 Process
+
+As a team, we:
+- Conducted research on field sales workflows  
+- Defined a minimal but complete MVP scope  
+- Iterated on map-first UX design  
+- Prioritized backend architecture before UI polish  
+- Built and tested features incrementally  
+
+---
+
+### 🚀 Current Status
+
+- Working MVP deployed  
+- Core features implemented:
+  - Authentication  
+  - Map-based business creation  
+  - Business detail views  
+  - Task, contact, and activity tracking  
+  - Role-based access  
+
+---
+
+### 🔭 Next Steps
+
+- Improve UI/UX and mobile usability  
+- Add search and filtering capabilities  
+- Implement analytics and reporting features  
+- Optimize scalability and deployment  
+- Incorporate user feedback from real-world testing  
 
 ---
 
@@ -131,5 +221,3 @@ Git/GitHub • ETL Pipelines • Data Modeling • System Design Fundamentals
 📧 adamidi@uw.edu  
 💼 [LinkedIn](https://www.linkedin.com/in/akhil-r-damidi/)  
 📄 [Resume](https://drive.google.com/file/d/1_S3RuO_Tk08M_B0qqW6E4JeBN-ylVGec/view)
-
-
